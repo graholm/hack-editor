@@ -1,8 +1,9 @@
 var editor = $(parent.document.body)
+editor.find("#project-files-header").css({color: "green"})
 
-editor.find("div").css({background:"white"})
+editor.find("div").css({border:"1px solid blue"})
 var topbar = $(parent.parent.document.body).find("#topbar")
-topbar.append (
+
 
 
 
