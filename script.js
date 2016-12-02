@@ -7,8 +7,6 @@ var topbar = $(parent.parent.document.body).find("#topbar")
 
 topbar.css({background: "pink"})
 
-editor.find ("jstree-brackets jstree-no-dots jstree-no-icons").css
-
 
 // Now try to
 // 1. add a button to the topbar
