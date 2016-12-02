@@ -1,13 +1,13 @@
 var editor = $(parent.document.body)
 editor.find("#project-files-header").css({color: "green"})
 
-editor.find("div").css({border:"1px solid blue"});
-
+//editor.find("div").css({border:"1px solid pink"});
+ 
 var topbar = $(parent.parent.document.body).find("#topbar")
 
 topbar.css({background: "pink"})
 
-
+editor.find ("jstree-brackets jstree-no-dots jstree-no-icons").css
 
 
 // Now try to
