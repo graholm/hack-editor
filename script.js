@@ -7,10 +7,13 @@ editor.find("#project-files-header").css({color: "green"})
 var topbar = $(parent.parent.document.body).find("#topbar")
 
 Button.click(function() {
+  console.log ("go")
+  topbar.css({background: "pink"})
+  editor.find("div").css({border:"1px solid pink"});
   
-}
+})
 
-topbar.css({background: "pink"})
+
 
 
 // Now try to
