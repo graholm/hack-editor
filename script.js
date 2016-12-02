@@ -1,6 +1,9 @@
 var editor = $(parent.document.body)
+
+editor.find("
 var topbar = $(parent.parent.document.body).find("#topbar")
-var allDivsInTheEditor = editor.find("div")
+var allDivsInTheEditor = 
+    editor.find("div")
 
 
 
