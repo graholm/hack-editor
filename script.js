@@ -1,10 +1,6 @@
 var Button = $("#btn btn-primary")
 
 
-
- 
-
-
 Button.click(function() {
   
   console.log ("go")
@@ -15,9 +11,6 @@ Button.click(function() {
   editor.find("div").css({border:"1px solid pink"});
   
 })
-
-
-//editor.find("div").css({border:"1px solid pink"});
 
 // Now try to
 // 1. add a button to the topbar
