@@ -5,7 +5,7 @@ var topbar = $(parent.parent.document.body).find("#topbar")
 topbar.append (
 var allDivsInTheEditor =  editor.find("div")
 
-editor.find("project-files-co").css({background:"white"})
+editor.find("#project-files-container").css({background:"blue"})
 
 // Now try to
 // 1. add a button to the topbar
