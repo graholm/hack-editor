@@ -1,9 +1,14 @@
+var Button = $("#btn btn-primary")
 var editor = $(parent.document.body)
 editor.find("#project-files-header").css({color: "green"})
 
 //editor.find("div").css({border:"1px solid pink"});
  
 var topbar = $(parent.parent.document.body).find("#topbar")
+
+Button.click(function() {
+  
+}
 
 topbar.css({background: "pink"})
 
