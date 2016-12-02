@@ -1,7 +1,7 @@
-var Button = $("#btn btn-primary")
+var buutton = $("#btn btn-primary")
 
 
-Button.click(function() {
+buutton.click(function() {
   
   console.log ("go")
   var editor = $(parent.document.body)
